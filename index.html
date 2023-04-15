@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSite</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to EduSite</h1>
+        <p>Providing Quality Education for Everyone</p>
+        <a href="#courses" class="cta-btn">Explore Courses</a>
+      </div>
+    </section>
+    <section id="courses" class="courses-section">
+      <h2>Courses Offered</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim semper risus, ac ullamcorper dui
+        dignissim nec. Sed nec ligula lectus. Nam accumsan risus vitae pharetra feugiat.</p>
+            <div class="container">
+              <h2 class="section-title">Find something for yourself</h2>
+              <div class="filters">
+                <div class="filter-group">
+                  <label for="category">Category:</label>
+                  <select id="category">
+                    <option value="all">All</option>
+                    <option value="science">Science</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="history">History</option>
+                  </select>
+                </div>
+                <div class="filter-group">
+                  <label for="difficulty">Difficulty:</label>
+                  <select id="difficulty">
+                    <option value="all">All</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                  </select>
+                </div>
+                <div class="filter-group">
+                  <label for="search">Search:</label>
+                  <input type="text" id="search" placeholder="Enter keywords">
+                </div>
+              </div>
+              <div class="course-list">
+                <!-- Course items will be dynamically generated here -->
+              </div>
+            </div>
+    </section>
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim semper risus, ac ullamcorper dui
+        dignissim nec. Sed nec ligula lectus. Nam accumsan risus vitae pharetra feugiat.</p>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Email: info@edusite.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 EduSite. All rights reserved.</p>
+    <div class="social-media-links">
+      <a href="#"><img src="img/social/01.svg" alt="Facebook"></a>
+      <a href="#"><img src="img/social/03.svg" alt="Twitter"></a>
+      <a href="#"><img src="img/social/02.svg" alt="Instagram"></a>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
